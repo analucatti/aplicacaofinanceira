@@ -1,10 +1,10 @@
-version: '3.4'
-  services:
-    postgress:
-      image: postgres
-      ports:
-        - '5432:5432'
-      environment:
-        POSTGRES_DB: aplicacao_financeira_dev
-        POSTGRES_USER: postgres
-        POSTGRES_PASSWORD: postgres
+version: "3.4"
+services:
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: aplicacao_financeira_dev
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
